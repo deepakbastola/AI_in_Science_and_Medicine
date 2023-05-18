@@ -12,7 +12,7 @@
 2. Second item
 3. Third item
 
-[Click Here](linkedin.com/in/francis-boateng)
+[Click Here](https://www.linkedin.com/in/francis-boateng/)
 
 ```
 import numpy as np
