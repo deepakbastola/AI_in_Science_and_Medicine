@@ -70,9 +70,7 @@ Here's a step-by-step explanation of the code:
        return htmldoc()
    ```
    - The `toggle_coin` function is decorated with `@app.route('/toggle')`, which associates it with the '/toggle' URL path.
-   - When a
-
- request is made to the '/toggle' path, the `toggle_coin` function is called.
+   - When a request is made to the '/toggle' path, the `toggle_coin` function is called.
    - Inside the function, `coin_state` is updated with a random value (0 or 1) generated using `np.random.randint(2)`.
    - The function then returns the result of the `htmldoc` function, refreshing the page with the updated coin state.
 
@@ -84,43 +82,3 @@ Here's a step-by-step explanation of the code:
    - The `debug=True` argument enables debug mode for better error messages.
    - The `port=8008` argument specifies the port number on which the application listens for incoming connections.
 
-
-# README.md
-
-You can create a README.md file in Markdown format to provide an overview of the code and its usage. Here's an example README.md for the given code:
-
-```markdown
-# Coin Flip Web Application
-
-This is a simple web application built with Python using the Microdot framework. It allows users to virtually flip a coin by clicking on it.
-
-## Requirements
-
-- Python 3.x
-- numpy
-- microdot
-
-## Installation
-
-1. Clone the repository or download the source code.
-2. Install the required dependencies by running the following command:
-   ```
-   pip install numpy microdot
-   ```
-
-## Usage
-
-1. Open a terminal or command prompt and navigate to the project directory.
-2. Run the following command to start the application:
-   ```
-   python coin_flip.py
-   ```
-3. Open a web browser and visit http://localhost:8008/.
-4. Click on the coin to flip it between "Heads" and "Tails".
-
-## License
-
-This project is licensed under the [MIT License](LICENSE).
-```
-
-In the README.md, you can provide information about the project, its requirements, installation steps, usage instructions, and any relevant licenses. Feel free to modify the example provided to suit your needs.
