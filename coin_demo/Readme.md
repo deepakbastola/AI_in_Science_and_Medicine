@@ -1,4 +1,4 @@
-# Code Explanation
+## Code Explanation
 
 The given code is a Python script that uses the Microdot framework to create a simple web application that allows the user to flip a virtual coin by clicking on it. The application runs a local server and serves an HTML page with a clickable coin that flips between "Heads" and "Tails" on each click.
 
