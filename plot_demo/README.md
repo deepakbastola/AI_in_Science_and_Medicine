@@ -1,6 +1,6 @@
 # Code Explanation
 
-The given code is a Python script that uses the Microdot framework to create a web application that generates a scatter plot with a random number of data points and displays it as an SVG image.
+The given code is a Python script that uses the Microdot framework to create a web application that generates a scatter plot with a random number of data points and displays it as an SVG-image.
 
 Here's a step-by-step explanation of the code:
 
