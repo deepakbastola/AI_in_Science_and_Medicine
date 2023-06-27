@@ -28,5 +28,4 @@ def htmldoc():
 coin_state = 0
 
 @app.route('/')
-def home(request):
-    return htmldoc()
+def home(reque
